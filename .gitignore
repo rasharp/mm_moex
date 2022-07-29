@@ -1,0 +1,7 @@
+# ignore data files
+/data/*.csv
+/data/*.feather
+/moex_data/*.csv
+/moex_data/*feather
+*.csv
+*.feather
