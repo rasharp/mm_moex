@@ -1,3 +1,8 @@
+"""
+Some info about module
+"""
+
+
 import pandas as pd
 import numpy as np
 import numba
@@ -94,7 +99,9 @@ def add_lob_prices(deals, lob):
     lob_bsize = lob['BID_SIZE'].to_numpy()
     lob_asize = lob['ASK_SIZE'].to_numpy()
     
-    order_bid, order_ask, order_bsize, order_asize = process_lob(order_time, lob_time, lob_bid, lob_ask, lob_bsize, lob_asize)
+    order_bid, order_ask, order_bsize, order_asize = process_lob(order_time, lob_time, 
+                                                                 lob_bid, lob_ask, 
+                                                                 lob_bsize, lob_asize)
     
     deals['BID'] = order_bid
     deals['ASK'] = order_ask
