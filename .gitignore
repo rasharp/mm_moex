@@ -2,7 +2,7 @@
 /data/*.csv
 /data/*.feather
 /moex_data/*.csv
-/moex_data/*feather
+/moex_data/*.feather
 *.csv
 *.feather
 __pycache__/
