@@ -3,7 +3,10 @@
 /data/*.feather
 /moex_data/*.csv
 /moex_data/*.feather
+/voldata/*.txt
+
 *.csv
 *.feather
 __pycache__/
 .ipynb_checkpoints/
+
