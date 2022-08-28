@@ -1,12 +1,18 @@
-# ignore data files
+# ignore data files in subdirectiories
 /data/*.csv
 /data/*.feather
 /moex_data/*.csv
 /moex_data/*.feather
 /voldata/*.txt
 
+# ignore files
 *.csv
 *.feather
+
+# ignore subdirectiories
 __pycache__/
 .ipynb_checkpoints/
+.idea/
+logs/
+tests/
 
